@@ -1,0 +1,17 @@
+{
+    "id": "sensor-data",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "description": " This schema represents a set of sensor data collected by a mobile device used by a user while performing a supervised physical test.",
+    "type": "object",
+
+    "properties": {
+        "data": {
+            "description": "Collection of values product of the sensor device used while performing the physical test. Respective collection of values is tabular separated to avoid ambiguity.",
+            "type": "object"
+        }
+    },
+
+    "required": [
+        "data"
+    ]
+}
