@@ -3,7 +3,7 @@
 This schema represents a mechanism to package sensor data collected from mobile devices worn by a user while performing one of either physical test (i.e., Timed Up and Go, 30-Second Chair Stand, 4-Stage Balance Test).
 
 ## General use
-* [PHYSICAL TEST](oHealth-Context/schemas/physical-test.1.x.json)
+* [PHYSICAL TEST](https://github.com/netzahdzc/oHealth-Context/schemas/physical-test.1.x.json)
 * [TEST TYPE](oHealth-Context/schemas/test-type.1.x.json)
 * [SENSOR TYPE](oHealth-Context/schemas/sensor-type.1.x.json)
 * [SENSOR SPEED](oHealth-Context/schemas/sensor-speed.1.x.json)
