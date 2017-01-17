@@ -4,7 +4,7 @@ This schema represents a mechanism to package sensor data collected from mobile 
 
 ## General use
 * Schema 1. PHYSICAL TEST 
-* Schema 1. PHYSICAL TEST 
+* Schema 2. TEST TYPE
 * Schema 3. SENSOR TYPE
 * Schema 4. SENSOR SPEED
 * Schema 5. SENSOR DATA
