@@ -27,3 +27,4 @@ Below we present the schemas that correspond to the variables of interest requir
 * [Interval of time that last the test] (https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/duration-unit-value-1.x.json)
 * [Balance index](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/balance-index-1.x.json)
 
+Please refer to the [specification section](./spec.md) for detailed information.
