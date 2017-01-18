@@ -23,13 +23,13 @@ This section introduce a single schema to define an entity to define a physical 
         "value": "0.0635477304458618,0.00490868091583252,0.0516815185546875,2016-09-08T10:51:41.341Z-0500",
         "type": "sensor-data"
         },
-    "timeInterval": {
-        "value": 20,
-        "type": "sec"
-    },
-    "startDateTime": {
+    "omh:start_date_time": {
         "value": "2017-02-01T07:35:00Z-0800",
-        "type": "start-date-time"
+        "type": "time-interval"
+    },
+    "omh:end_date_time": {
+        "value": "2017-02-01T07:35:00Z-0800",
+        "type": "time-interval"
     }
 }
 ```
