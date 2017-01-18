@@ -9,7 +9,7 @@ oHealth-Context data model defines the following entity:
 This section introduce a single schema to define an entity to define a physical test. It concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
 
 ### Data model
-* ```id:``` Entity's unique identifier.
+* ```id:``` Entity's unique identifier which must follow a specific format (i.e., `<`DEVICE UNIQUE ID`>`-`<`TEST NUMBER`>`; without blank spaces in between and using capital letters).
 * ```type:``` It must be PhisicalTest.
 * ```test:``` Physical test to measure risk of fall (i.e., Timed Up and Go, 30 second sit to stand test, Four Step Square Test).
 * ```sensor:``` Defines sensors devices used to obtain information from mobile devices (i.e., Accelerometer, Orientation).
