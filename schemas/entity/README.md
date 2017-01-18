@@ -1,36 +1,8 @@
-# Physical Test
+# Health issues tracking data models
 
-This section introduce a single schema to define an entity to define a physical test. It concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
+These data models allow to perform civic issue tracking. They have been designed with a view to enabling trivial interoperability between FIWARE NGSI version 2 and Open311. As a result, property names have not been normalized to the camelCasesyntax, they remain as currently specified by Open311. That is the rationale behind naming entity types with Open311 as prefix. However, a few properties are added, so that FIWARE NGSI version 2 implementations can properly store and serve Open 311 data.
 
-## Example of use
-```
-{
-    "id": "smarthphone-2",
-    "type": "PhysicalTest",
-    "test": {
-        "value": "Timed Up and Go",
-        "type": "test-type"
-        },
-    "sensor": {
-        "value": "Accelerometer",
-        "type": "sensor-type"
-        },
-    "speed": {
-        "value": "hz",
-        "type": "sensor-speed"
-        },
-    "data": {
-        "value": "0.0635477304458618,0.00490868091583252,0.0516815185546875,2016-09-08T10:51:41.341Z-0500",
-        "type": "sensor-data"
-        },
-    "omh:start_date_time": {
-        "value": "2017-02-01T07:35:00Z-0800",
-        "type": "omh:time-interval"
-    },
-    "omh:end_date_time": {
-        "value": "2017-02-01T07:35:00Z-0800",
-        "type": "omh:time-interval"
-    }
-}
-```
+FIWARE and OASC, in the medium term, might propose to the Open311 Community a harmonized data model aligned with the rest of FIWARE data models and schema.org. In fact, using these data models and a FIWARE NGSI version 2 implementation it is trivial to implement the APIs proposed by Open311. Another option would be the use of JSON-LD to define equivalencies and mappings between a FIWARE / Schema.org data model and Open 311.
+
+
 
