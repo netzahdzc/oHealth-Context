@@ -1,12 +1,15 @@
-{   "id": "physical-test",
+{   
+    "id": "physical-test",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "description": "This schema represents a physical test performed. It concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.",
     "type": "object",
+    
     "references": [
         {
             "description": "This schema has been created to fulfill the technical fetching need of mobile devices’ sensors used on physical test aimed to measure the risk of fall."
         }
     ],
+    
     "definitions": {
         "test_type": {
             "$ref": "test-type-1.x.json"
@@ -24,6 +27,7 @@
             "$ref": "time-interval-1.x.json"
         }
     },
+    
     "properties": {
         "test_type": {
             "$ref": "#/definitions/test_type"
@@ -41,5 +45,6 @@
             "$ref": "#/definitions/time_interval"
         },
     },
+    
     "required": ["test_type", "sensor_type", "sensor_speed", "sensor_data", "time_interval"]
 }
