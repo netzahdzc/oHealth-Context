@@ -11,40 +11,40 @@
     ],
     
     "definitions": {
-        "test_type": {
+        "test": {
             "$ref": "test-type-1.x.json"
         },
-        "sensor_type": {
+        "sensor": {
             "$ref": "sensor-type-1.x.json"
         },
-        "sensor_speed": {
+        "speed": {
             "$ref": "sensor-speed-1.x.json"
         },
-        "sensor_data": {
+        "data": {
             "$ref": "sensor-data-1.x.json"
         },
-        "time_interval": {
+        "time": {
             "$ref": "time-interval-1.x.json"
         }
     },
     
     "properties": {
-        "test_type": {
+        "test": {
             "$ref": "#/definitions/test_type"
         },
-        "sensor_type": {
+        "sensor": {
             "$ref": "#/definitions/sensor_type"
         },
-        "sensor_speed": {
+        "speed": {
             "$ref": "#/definitions/sensor_speed"
         },
-        "sensor_data": {
+        "data": {
             "$ref": "#/definitions/sensor_data"
         },
-        "time_interval": {
+        "timel": {
             "$ref": "#/definitions/time_interval"
         },
     },
     
-    "required": ["test_type", "sensor_type", "sensor_speed", "sensor_data", "time_interval"]
+    "required": ["test", "sensor", "speed", "data", "time"]
 }
