@@ -8,7 +8,7 @@ This section introduce a single schema to define an entity to define a physical 
     "id": "smarthphone-1",
     "type": "PhysicalTest",
     "test": {
-        "value": "Timed Up and Go"
+        "value": "Timed Up and Go",
         "type": "test-type"
         },
     "sensor": {
