@@ -19,7 +19,7 @@ This section introduce a single schema to define an entity to define a physical 
 ### Example of use
 ```
 {
-    "id": "smarthphone-2",
+    "id": "0000000054b3e7c70000000046bffd97-2",
     "type": "PhysicalTest",
     "test": {
         "value": "Timed Up and Go",
