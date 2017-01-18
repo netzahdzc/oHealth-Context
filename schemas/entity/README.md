@@ -1,4 +1,4 @@
-# Physycal Test
+# Physical Test
 
 This section introduce a single schema to define an entity to define a physical test. It concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
 
