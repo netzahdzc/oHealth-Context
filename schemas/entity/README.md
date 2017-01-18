@@ -25,11 +25,11 @@ This section introduce a single schema to define an entity to define a physical 
         },
     "omh:start_date_time": {
         "value": "2017-02-01T07:35:00Z-0800",
-        "type": "time-interval"
+        "type": "omh:time-interval"
     },
     "omh:end_date_time": {
         "value": "2017-02-01T07:35:00Z-0800",
-        "type": "time-interval"
+        "type": "omh:time-interval"
     }
 }
 ```
