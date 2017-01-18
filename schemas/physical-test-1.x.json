@@ -41,5 +41,5 @@
             "$ref": "#/definitions/time_interval"
         },
     },
-    "required": ["test_type", "sensor_type", "sensor_speed", "sensor_data", "expiratory_time", "effective_time_frame"]
+    "required": ["test_type", "sensor_type", "sensor_speed", "sensor_data", "time_interval"]
 }
