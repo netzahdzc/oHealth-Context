@@ -26,3 +26,4 @@ Below we present the schemas that correspond to the variables of interest requir
 ### Test: 4-Stage Balance Test
 * [Interval of time that last the test] (https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/duration-unit-value-1.x.json)
 * [Balance index](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/balance-index-1.x.json)
+* [Balance test](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/balance-test-1.x.json)
