@@ -27,11 +27,13 @@ This section introduce a single schema to define an entity to define a physical 
         },
     "sensor": {
         "value": "Accelerometer",
-        "type": "sensor-type"
-        },
-    "speed": {
-        "value": "hz",
-        "type": "sensor-speed"
+        "type": "sensor-type",
+        "metadata": {
+            "speed": {
+                "value": "50",
+                "type": "hz"
+                }
+            }
         },
     "data": {
         "value": "0.0635477304458618,0.00490868091583252,0.0516815185546875,2016-09-08T10:51:41.341Z-0500",
