@@ -16,15 +16,15 @@
       "url": "http://www.rehabmeasures.org/Lists/RehabMeasures/DispForm.aspx?ID=1122"
     },
     {
-      "value": "Four Step Square Test",
-      "description": "Rehab Measures: Four Step Square Test",
-      "url": "http://www.rehabmeasures.org/Lists/RehabMeasures/DispForm.aspx?ID=900"
+      "value": "4-Stage Balance Test",
+      "description": "Rehab Measures: 4-Stage Balance Test",
+      "url": "https://www.cdc.gov/steadi/pdf/4-stage_balance_test-a.pdf"
     }
   ],
 
   "enum": [
     "Timed Up and Go",
     "30 second sit to stand test",
-    "Four Step Square Test"
+    "4-Stage Balance Test"
   ]
 }
