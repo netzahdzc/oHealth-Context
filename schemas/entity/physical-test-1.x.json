@@ -11,19 +11,21 @@
     ],
     
     "definitions": {
-        "test": {
+        "test ": {
             "$ref": "test-type-1.x.json"
         },
         "sensor": {
-            "$ref": "sensor-type-1.x.json"
+            "$ref": "sensor-type-1.x.json",
+            "metadata": {
+                        "speed ": {
+                            "$ref": "sensor-speed-1.x.json"
+                        }
+            }
         },
-        "speed": {
-            "$ref": "sensor-speed-1.x.json"
-        },
-        "data": {
+       "data": {
             "$ref": "sensor-data-1.x.json"
         },
-        "time": {
+        "time ": {
             "$ref": "time-interval-1.x.json"
         }
     },
