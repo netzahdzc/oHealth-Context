@@ -10,7 +10,7 @@ This section introduce a number of schema to define an entitis. For instance the
 
 | Attribute| Description                                                                                                                              |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| id            | Entity's unique identifier which must follow a specific format (i.e., \-\-\; without blank spaces in between and using capital letters). |
+| id            | Entity's unique identifier which must follow a specific format (i.e., \<DEVICE UNIQUE ID\>-\<SENSOR\>-\<TEST NUMBER\>; without blank spaces in between and using capital letters). |
 | type          | It must be PhisicalTest.                                                                                                                 |
 | test          | Physical test to measure risk of fall (i.e., Timed Up and Go, 30 second sit to stand test, Four Step Square Test).                       |
 | sensor        | Defines sensors devices used to obtain information from mobile devices (i.e., Accelerometer, Orientation).                               |
