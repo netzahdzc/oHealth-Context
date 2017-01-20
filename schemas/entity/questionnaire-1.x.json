@@ -1,0 +1,93 @@
+{
+  "id": "questionnaire",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+   "description": "This schema represents a questionnaire filled from medical staff after supervising physical test. It is part of a set of schemas specifically designed for 3Ollin-Test",
+   "type":"object",
+
+   "definitions":{
+	  "test": {
+	    "$ref": "test-identificator-1.x.json"
+	  },
+	  "patient": {
+	    "$ref": "patient-identificator-1.x.json"
+	  },
+	  "question1": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question2": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question3": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question4": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question5": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question6": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question7": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question8": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "question9": {
+	    "$ref": "answer-to-question-1.x.json"
+	  },
+	  "status": {
+	    "$ref": "status-1.x.json"
+	  },
+	  "lastUpdate": {
+	    "$ref": "date-time-1.x.json"
+	  }
+   },
+
+   "properties":{
+   	  "test": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "patient": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question1": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question2": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question3": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question4": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question5": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question6": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question7": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question8": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "question9": {
+	    "$ref": "#/definitions/answer_to_question"
+	  },
+	  "status": {
+	    "$ref": "#/definitions/status"
+	  },
+	  "lastUpdate": {
+	    "$ref": "#/definitions/date_time"
+	  }
+   },
+
+   "required":[]  
+
+}
