@@ -1,0 +1,10 @@
+{
+    "$id": "answer-to-question",
+
+    "$schema": "http://json-schema.org/draft-04/schema#",
+
+    "description": "Word or set of words that represent a particular answer from a given question.",
+
+    "references": [ ],
+    "type": "string"
+}
