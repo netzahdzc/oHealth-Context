@@ -19,15 +19,15 @@ This section introduce a single schema to define an entity to define a physical 
 ### Example of use
 ```
 {  
-   "id":"ffffffffff9cbbf4465f0ef30033c587-acc-728",
+   "id":"ffffffffff9cbbf4465f0ef30033c587-acc-7118",
    "type":"PhysicalTest",
    "test":{  
-   	  "value":"Timed Up and Go",
+      "value":"Timed Up and Go",
       "type":"test-type",
       "metadata":{  
          "variant":{  
-         	"value":"NA",
-            "type":"test-option",
+            "value":"NA",
+            "type":"test-option"
          }
       }
    },
@@ -38,6 +38,26 @@ This section introduce a single schema to define an entity to define a physical 
          "format":{  
             "value":"csv",
             "type":"format"
+         },
+         "device":{  
+            "value":"Smartphone",
+            "type":"device-type"
+         },
+         "model":{  
+            "value":"MI 5",
+            "type":"Smartphone"
+         },
+         "brand":{  
+            "value":"Xioami",
+            "type":"Smartphone"
+         },
+         "software":{  
+            "value":"vN1.0_vC6",
+            "type":"Version"
+         },
+         "library":{  
+            "value":"23",
+            "type":"Android API"
          }
       }
    },
@@ -46,7 +66,7 @@ This section introduce a single schema to define an entity to define a physical 
       "type":"sensor-type",
       "metadata":{  
          "speed":{  
-         	"value":"60",
+            "value":"60",
             "type":"hz"
          }
       }
