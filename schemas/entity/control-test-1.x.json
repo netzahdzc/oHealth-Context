@@ -1,0 +1,53 @@
+{  
+   "id":"control-test",
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "description": "This schema represents control measurement data for patients. It is part of a set of schemas specifically designed for 3Ollin-Test",
+   "type":"object",
+   "definitions": {
+	   "omh:body_weight":{  
+	      "$ref": "body-weight-1.x.json"
+	   },
+	   "omh:body_height":{  
+	      "$ref": "body-height-1.x.json"
+	   },
+	   "waistCircumference":{  
+	      "$ref": "waist-size-1.x.json"
+	   },
+	   "omh:heart_rate":{  
+	      "$ref": "heart-rate-1.x.json"
+	   },
+	   "omh:systolic_blood_pressure":{  
+	      "$ref": "systolic-blood-pressure-1.x.json"
+	   },
+	   "omh:diastolic_blood_pressure":{  
+	      "$ref": "diastolic-blood-pressure-1.x.json"
+	   },
+	   "omh:effective_time_frame":{  
+	      "$ref": "effective-time-frame-1.x.json"
+	   }
+   },
+   "properties": {
+	   "omh:body_weight":{  
+	     "$ref": "#/definitions/body_weight"
+	   },
+	   "omh:body_height":{  
+	      "$ref": "#/definitions/body_height"
+	   },
+	   "waistCircumference":{  
+	      "$ref": "#/definitions/waist_circumference"
+	   },
+	   "omh:heart_rate":{  
+	      "$ref": "#/definitions/heart_rate"
+	   },
+	   "omh:systolic_blood_pressure":{  
+	      "$ref": "#/definitions/systolic_blood_pressure"
+	   },
+	   "omh:diastolic_blood_pressure":{  
+	      "$ref": "#/definitions/diastolic_blood_pressure"
+	   },
+	   "omh:effective_time_frame":{  
+	      "$ref": "#/definitions/date_time"
+	   }
+   },
+   "required":[]  
+}
