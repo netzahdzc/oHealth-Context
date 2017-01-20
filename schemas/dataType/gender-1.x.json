@@ -1,0 +1,15 @@
+{
+    "$id": "gender",
+
+    "$schema": "http://json-schema.org/draft-04/schema#",
+
+    "description": "Patient observable sex.",
+
+    "references": [
+        {
+            "description": "The SNOMED code represents (observable entity). ",
+            "url": "http://purl.bioontology.org/ontology/SNOMEDCT/184100006"
+        }
+    ],
+    "type": "string"
+}
