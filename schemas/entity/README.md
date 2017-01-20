@@ -21,49 +21,43 @@ This section introduce a single schema to define an entity to define a physical 
 {  
    "id":"ffffffffff9cbbf4465f0ef30033c587-acc-728",
    "type":"PhysicalTest",
+   "test":{  
+   	  "value":"Timed Up and Go",
+      "type":"test-type",
+      "metadata":{  
+         "variant":{  
+         	"value":"NA",
+            "type":"test-option",
+         }
+      }
+   },
    "data":{  
-      "type":"sensor-data",
       "value":"-69.895,72.0493,4.90137,2017-01-18T20:45:43.765Z-0800 -69.844,72.0726,4.85817,2017-01-18T20:45:43.799Z-0800 -69.8184,72.0956,4.84979,2017-01-18T20:45:43.859Z-0800 -69.7982,72.1125,4.83087,2017-01-18T20:45:43.892Z-0800 -69.7344,72.1441,4.77256,2017-01-18T20:45:43.930Z-0800 -69.6329,72.1785,4.6916,2017-01-18T20:45:43.957Z-0800 -69.5742,72.1842,4.63849,2017-01-18T20:45:43.984Z-0800 -69.5733,72.215,4.64865,2017-01-18T20:45:44.078Z-0800 -69.5594,72.2631,4.64678,2017-01-18T20:45:44.196Z-0800 -69.5009,72.2957,4.59217,2017-01-18T20:45:44.236Z-0800...",
+      "type":"sensor-data",
       "metadata":{  
          "format":{  
-            "type":"format",
-            "value":"csv"
+            "value":"csv",
+            "type":"format"
+         }
+      }
+   },
+   "sensor":{  
+      "value":"Accelerometer",
+      "type":"sensor-type",
+      "metadata":{  
+         "speed":{  
+         	"value":"60",
+            "type":"hz"
          }
       }
    },
    "omh:end_date_time":{  
-      "type":"omh:time-interval",
       "value":"2017-01-18T20:45:58.447Z-0800",
-      "metadata":{  
-
-      }
+      "type":"omh:time-interval"
    },
    "omh:start_date_time":{  
-      "type":"omh:time-interval",
       "value":"2017-01-18T20:45:42.697Z-0800",
-      "metadata":{  
-
-      }
-   },
-   "sensor":{  
-      "type":"sensor-type",
-      "value":"Accelerometer",
-      "metadata":{  
-         "speed":{  
-            "type":"hz",
-            "value":"60"
-         }
-      }
-   },
-   "test":{  
-      "type":"test-type",
-      "value":"Timed Up and Go",
-      "metadata":{  
-         "variant":{  
-            "type":"test-option",
-            "value":"NA"
-         }
-      }
+      "type":"omh:time-interval"
    }
 }
 ```
