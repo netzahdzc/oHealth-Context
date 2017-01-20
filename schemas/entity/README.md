@@ -4,17 +4,18 @@ These data models allow to perform health data tracking. They have been designed
 
 oHealth-Context data model defines the following entity:
 
-## Physical Test
+## Entities
 
-This section introduce a single schema to define an entity to define a physical test. It concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
+This section introduce a number of schema to define an entitis. For instance the **physical test** concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
 
-### Data model
-* ```id:``` Entity's unique identifier which must follow a specific format (i.e., \<DEVICE UNIQUE ID\>-\<SENSOR\>-\<TEST NUMBER\>; without blank spaces in between and using capital letters).
-* ```type:``` It must be PhisicalTest.
-* ```test:``` Physical test to measure risk of fall (i.e., Timed Up and Go, 30 second sit to stand test, Four Step Square Test).
-* ```sensor:``` Defines sensors devices used to obtain information from mobile devices (i.e., Accelerometer, Orientation).
-* ```speed:``` Represents the speed of the sensors devices used to collect data (e.g., hz). 
-* ```data:``` Represents a set of sensor data collected by a mobile device used by a user while performing a supervised physical test.
+| Attribute| Description                                                                                                                              |
+|---------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| id            | Entity's unique identifier which must follow a specific format (i.e., \-\-\; without blank spaces in between and using capital letters). |
+| type          | It must be PhisicalTest.                                                                                                                 |
+| test          | Physical test to measure risk of fall (i.e., Timed Up and Go, 30 second sit to stand test, Four Step Square Test).                       |
+| sensor        | Defines sensors devices used to obtain information from mobile devices (i.e., Accelerometer, Orientation).                               |
+| speed         | Represents the speed of the sensors devices used to collect data (e.g., hz).                                                             |
+| data          | Represents a set of sensor data collected by a mobile device used by a user while performing a supervised physical test.                 |
 
 ### Example of use
 ```
