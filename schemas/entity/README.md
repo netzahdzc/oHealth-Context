@@ -9,7 +9,7 @@ oHealth-Context data model defines the following entity:
 This section introduce a single schema to define an entity to define a physical test. It concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
 
 ### Data model
-* ```id:``` Entity's unique identifier which must follow a specific format (i.e., \<DEVICE UNIQUE ID\>-\<TEST NUMBER\>; without blank spaces in between and using capital letters).
+* ```id:``` Entity's unique identifier which must follow a specific format (i.e., \<DEVICE UNIQUE ID\>-\<SENSOR\>-\<TEST NUMBER\>; without blank spaces in between and using capital letters).
 * ```type:``` It must be PhisicalTest.
 * ```test:``` Physical test to measure risk of fall (i.e., Timed Up and Go, 30 second sit to stand test, Four Step Square Test).
 * ```sensor:``` Defines sensors devices used to obtain information from mobile devices (i.e., Accelerometer, Orientation).
@@ -18,34 +18,52 @@ This section introduce a single schema to define an entity to define a physical 
 
 ### Example of use
 ```
-{
-    "id": "0000000054b3e7c70000000046bffd97-2",
-    "type": "PhysicalTest",
-    "test": {
-        "value": "Timed Up and Go",
-        "type": "test-type"
-        },
-    "sensor": {
-        "value": "Accelerometer",
-        "type": "sensor-type",
-        "metadata": {
-            "speed": {
-                "value": "50",
-                "type": "hz"
-                }
-            }
-        },
-    "data": {
-        "value": "0.0635477304458618,0.00490868091583252,0.0516815185546875,2016-09-08T10:51:41.341Z-0500",
-        "type": "sensor-data"
-        },
-    "omh:start_date_time": {
-        "value": "2017-02-01T07:35:00Z-0800",
-        "type": "omh:time-interval"
-    },
-    "omh:end_date_time": {
-        "value": "2017-02-01T07:35:00Z-0800",
-        "type": "omh:time-interval"
-    }
+{  
+   "id":"ffffffffff9cbbf4465f0ef30033c587-acc-728",
+   "type":"PhysicalTest",
+   "data":{  
+      "type":"sensor-data",
+      "value":"-69.895,72.0493,4.90137,2017-01-18T20:45:43.765Z-0800 -69.844,72.0726,4.85817,2017-01-18T20:45:43.799Z-0800 -69.8184,72.0956,4.84979,2017-01-18T20:45:43.859Z-0800 -69.7982,72.1125,4.83087,2017-01-18T20:45:43.892Z-0800 -69.7344,72.1441,4.77256,2017-01-18T20:45:43.930Z-0800 -69.6329,72.1785,4.6916,2017-01-18T20:45:43.957Z-0800 -69.5742,72.1842,4.63849,2017-01-18T20:45:43.984Z-0800 -69.5733,72.215,4.64865,2017-01-18T20:45:44.078Z-0800 -69.5594,72.2631,4.64678,2017-01-18T20:45:44.196Z-0800 -69.5009,72.2957,4.59217,2017-01-18T20:45:44.236Z-0800...",
+      "metadata":{  
+         "format":{  
+            "type":"format",
+            "value":"csv"
+         }
+      }
+   },
+   "omh:end_date_time":{  
+      "type":"omh:time-interval",
+      "value":"2017-01-18T20:45:58.447Z-0800",
+      "metadata":{  
+
+      }
+   },
+   "omh:start_date_time":{  
+      "type":"omh:time-interval",
+      "value":"2017-01-18T20:45:42.697Z-0800",
+      "metadata":{  
+
+      }
+   },
+   "sensor":{  
+      "type":"sensor-type",
+      "value":"Accelerometer",
+      "metadata":{  
+         "speed":{  
+            "type":"hz",
+            "value":"60"
+         }
+      }
+   },
+   "test":{  
+      "type":"test-type",
+      "value":"Timed Up and Go",
+      "metadata":{  
+         "variant":{  
+            "type":"test-option",
+            "value":"NA"
+         }
+      }
+   }
 }
 ```
