@@ -1,0 +1,56 @@
+{  
+   "id":"patient",
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "description": "This schema represents personal data to identify patients. It is part of a set of schemas specifically designed for 3Ollin-Test",
+   "type":"object",
+
+   "definitions":{
+	   "name":{  
+   	  	  "$ref": "name-1.x.json"
+	   },
+	   "surname":{  
+	      "$ref": "surname-1.x.json"
+	   },
+	   "gender":{  
+	      "$ref": "gender-1.x.json"
+	   },
+	   "birthday":{  
+	      "$ref": "birthday-1.x.json"
+	   },
+	   "trash":{  
+	      "$ref": "status-1.x.json"
+	   },
+	   "created":{  
+	      "$ref": "date-time-1.x.json"
+	   },
+	   "lastUpdate":{  
+	      "$ref": "date-time-1.x.json"
+	   }
+   },
+
+   "properties":{
+   	   "name":{  
+   	  	  "$ref": "#/definitions/name"
+	   },
+	   "surname":{  
+	      "$ref": "#/definitions/surname"
+	   },
+	   "gender":{  
+	      "$ref": "#/definitions/gender"
+	   },
+	   "birthday":{  
+	      "$ref": "#/definitions/birthday"
+	   },
+	   "trash":{  
+	      "$ref": "#/definitions/status"
+	   },
+	   "created":{  
+	      "$ref": "#/definitions/date_time"
+	   },
+	   "lastUpdate":{  
+	      "$ref": "#/definitions/date_time"
+	   }
+   },
+
+   "required":[]  
+}
