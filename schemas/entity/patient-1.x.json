@@ -1,7 +1,7 @@
 {  
    "id":"patient",
    "$schema": "http://json-schema.org/draft-04/schema#",
-   "description": "This schema represents personal data to identify patients. It is part of a set of schemas specifically designed for 3Ollin-Test",
+   "description": "This schema represents demographic data to identify patients. It is part of a set of schemas specifically designed for 3Ollin-Test",
    "type":"object",
 
    "definitions":{
