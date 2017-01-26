@@ -1,21 +1,21 @@
 # PREFACE
 
-This project provides an overview of a data-model in the scope of sensing data for wearable and mobile devices. It introduces a data-model called oHealth Context which stands for Open Health Context schemas.
+This project provides an overview of a data model in the scope of sensing data for wearable and mobile devices. It introduces a data model called oHealth-Context which stands for Open Health Context.
 
 
 # INTRODUCTION
 
-oHealth Context is an initiative proposed as part of the SmartSDk project track HealthCare-App. Its aims is to benefit a range of individuals and organizations (e.g., patients, researchers, health care system, government, etc.) by reducing the complexity of health data, through a standardized set of schemas and software stack that might facilitate writing applications that can process and create clinical data, regardless of where the data comes from.
+oHealth-Context is an initiative proposed as part of the SmartSDk project track HealthCare-App. Its aims is to benefit a range of individuals and organizations (e.g., patients, researchers, health care system, government, etc.) by reducing the complexity of health data, through a standardized set of schemas and software stack that might facilitate writing applications that can process and create clinical data, regardless of where the data comes from.
 
 The interpretation of clinical data is critical and needs to be associated to proper metadata. For instance, it is imperative for a physician to differentiate between glucose levels among diabetic patients, or to distinguish whether a heart patient is self-reporting his heart rate or whether it is being automatically collected during resting or exercise time. In this context, oHealth Context provides useful data structures to facilitate a meaningful interpretation of the data. 
 
-oHealth Context is built based on an open source health set of specifications called: Open mHealth; which consist on a set of tools and specifications designed to handle medical data. 
+oHealth-Context is built based on an open source health set of specifications called: Open Mobile Health; which consist on a set of tools and specifications designed to handle medical data. 
 
 # MOTIVATION
 
-Projects like the Precision Medicine Initiative and the deployment of private services like: Apple’s research-kit & care-kit, fitbit, Google fit, highlight the relevance of having a standardized and interoperable dataset. Hence, common data schemas are paramount to the semantic interpretation and complexity of health data. In this context, a main concern of mobile sensing is to concentrate reliable datasets, which requires a shared vocabulary of terms and relationships. Other similar initiatives include: DataOne; that provides a set of data-models and specifications in the context of environmental data, OHDSI; which provides a set of data-models and set of tools (e.g., API) to handle data based on healthcare. 
+Projects like the Precision Medicine Initiative and the deployment of private services like: Apple’s research-kit & care-kit, fitbit, Google fit, highlight the relevance of having a standardized and interoperable dataset. Hence, common data schemas are paramount to the semantic interpretation and complexity of health data. In this context, a main concern of mobile sensing is to concentrate reliable datasets, which requires a shared vocabulary of terms and relationships. Other similar initiatives include: DataOne; that provides a set of data-models and specifications in the context of environmental data, OHDSI; which provides a set of data models and set of tools (e.g., API) to handle data based on healthcare. 
 
-In this project we have adopted and extended the standardized mHealth specifications to cover the need of oHealth Context on Fiware.
+In this project we have adopted and extended the standardized mHealth specifications to cover the need of oHealth Context on FIWARE.
 
 # SCHEMAS
 
