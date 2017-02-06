@@ -8,6 +8,32 @@
         "data": {
             "description": "Collection of values product of the sensor device used while performing the physical test. Respective collection of values is tabular separated to avoid ambiguity.",
             "type": "object"
+            "metadata": {
+                "format": {
+                    "description": "Formar in which sensed data is been delivered. For instance JSON, CVS, TVS.",
+                    "type": "data-format-1.x.json"
+                },
+                "device": {
+                    "description": "Device type.",
+                    "type": "device-type-1.x.json"
+                },
+                "model": {
+                    "description": "Device model.",
+                    "type": "Text"
+                },
+                "brand": {
+                    "description": "Device brand defined from respective manufacture.",
+                    "type": "Text"
+                },
+                "software": {
+                    "description": "Software version defined from installed program that is gathering sensor data from respective device.",
+                    "type": "Text"
+                },
+                "library": {
+                    "description": "Sofware version or description to further identify the library used by the main software to collect sensor data.",
+                    "type": "Text"
+                }
+            }
         }
     },
 
