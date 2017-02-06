@@ -7,7 +7,7 @@
     "properties": {
         "data": {
             "description": "Collection of values product of the sensor device used while performing the physical test. Respective collection of values is tabular separated to avoid ambiguity.",
-            "type": "object"
+            "type": "object",
             "metadata": {
                 "format": {
                     "description": "Formar in which sensed data is been delivered. For instance JSON, CVS, TVS.",
