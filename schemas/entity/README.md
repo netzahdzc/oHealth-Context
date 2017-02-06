@@ -6,7 +6,7 @@ oHealth-Context data model defines the following entity:
 
 ## Entities
 
-This section introduce a number of schema to define an entitis. For instance the **physical test** concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
+This section introduce a number of schema to define entities. For instance the **physical test** concentrates sensor data collected along a controlled test from a physical device carried/worn by a user while performing a supervised physical test.
 
 | Attribute| Description                                                                                                                              |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------|
