@@ -1,5 +1,5 @@
 {
-  "id": "device-type",
+  "id": "data-format",
   "$schema": "http://json-schema.org/draft-04/schema#",
   "description": "This schema defines sensors devices used to obtain information from mobile devices.",
   "type": "string",
