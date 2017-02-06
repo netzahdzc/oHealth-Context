@@ -2,7 +2,7 @@
 
 This schema represents a mechanism to package sensor data collected from mobile devices worn by a user while performing one of either physical test (i.e., Timed Up and Go, 30-Second Chair Stand, 4-Stage Balance Test).
 
-## General use
+## Used in general test
 * [Physical test](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/entity/physical-test-1.x.json)
 * [Test type](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/test-type-1.x.json)
 * [Sensor type](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/sensor-type-1.x.json)
@@ -28,7 +28,7 @@ Below we present the schemas that correspond to the variables of interest requir
 * [Balance index](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/balance-index-1.x.json)
 * [Balance test](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/dataType/balance-test-1.x.json)
 
-## 3Ollin-Test
+## 3Ollin-Test app (project's proof of concept)
 * [Control test](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/entity/control-test-1.x.json)
 * [Patient](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/entity/patient-1.x.json)
 * [User](https://github.com/netzahdzc/oHealth-Context/blob/master/schemas/entity/user-1.x.json)
