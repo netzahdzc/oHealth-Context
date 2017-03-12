@@ -1,62 +1,43 @@
 {  
-   "id":"user",
+   "id": "user",
    "$schema": "http://json-schema.org/draft-04/schema#",
-   "description": "This schema represents personal data to identify users/manager of the system from where data sill be collected. It is part of a set of schemas specifically designed for 3Ollin-Test",
-   "type":"object",
+   "description": "This schema represents personal data to identify users/manager of the system from where data sill be collected.",
+   "type": "object",
 
-   "definitions":{
-	   "name":{  
-   	  	  "$ref": "name-1.x.json"
+   "definitions": {
+	   "patient_identification": {  
+   	  	  "$ref": "patient-identification-1.x.json"
 	   },
-	   "surname":{  
-	      "$ref": "surname-1.x.json"
-	   },
-	   "gender":{  
+	   "gender": {  
 	      "$ref": "gender-1.x.json"
 	   },
-	   "email":{  
-	      "$ref": "email-1.x.json"
-	   },
-	   "activationCode":{  
-	      "$ref": "activation-code-1.x.json"
-	   },
-	   "trash":{  
-	      "$ref": "status-1.x.json"
-	   },
-	   "created":{  
+	   "created": {  
 	      "$ref": "date-time-1.x.json"
 	   },
-	   "lastUpdate":{  
+	   "lastUpdate": {  
 	      "$ref": "date-time-1.x.json"
 	   }
    },
 
-   "properties":{
-   	   "name":{  
-   	  	  "$ref": "#/definitions/name"
+   "properties": {
+   	   "patient_identification": {  
+   	  	  "$ref": "#/definitions/patient_identification"
 	   },
-	   "surname":{  
-	      "$ref": "#/definitions/surname"
-	   },
-	   "gender":{  
+	   "gender": {  
 	      "$ref": "#/definitions/gender"
 	   },
-	   "email":{  
-	      "$ref": "#/definitions/email"
-	   },
-	   "activationCode":{  
-	      "$ref": "#/definitions/activation_code"
-	   },
-	   "trash":{  
-	      "$ref": "#/definitions/status"
-	   },
-	   "created":{  
+	   "created": {  
 	      "$ref": "#/definitions/date_time"
 	   },
-	   "lastUpdate":{  
+	   "lastUpdate": {  
 	      "$ref": "#/definitions/date_time"
 	   }
    },
 
-   "required":[]  
+   "required": [
+   		"patient_identification",
+   		"gender",
+   		"created",
+   		"lastUpdate"
+   ]  
 }

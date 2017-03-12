@@ -6,7 +6,7 @@
 
     "references": [
         {
-            "description": "The SNOMED code represents the gait function (observable entity)",
+            "description": "The SNOMED code represents the gait function (observable entity).",
             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/63448001"
         }
     ],
@@ -34,7 +34,10 @@
                     }
                 }
             ]
-        },
+        }
+    },
 
-    "required": ["step_latency"]
+    "required": [
+        "step_latency"
+    ]
 }

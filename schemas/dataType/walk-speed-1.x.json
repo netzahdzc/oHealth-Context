@@ -6,7 +6,7 @@
 
     "references": [
         {
-            "description": "The SNOMED code represents the walking performance (observable entity)",
+            "description": "The SNOMED code represents the walking performance (observable entity).",
             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/129006008"
         }
     ],
@@ -35,6 +35,10 @@
                     }
                 }
             ]
-        },
-    "required": ["walk_speed"]
+        }
+    },
+
+    "required": [
+        "walk_speed"
+    ]
 }

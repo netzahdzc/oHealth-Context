@@ -6,7 +6,7 @@
 
     "references": [
         {
-            "description": "The SNOMED code represents distance (qualifier value)",
+            "description": "The SNOMED code represents distance (qualifier value).",
             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/246132006"
         }
     ],
@@ -24,18 +24,19 @@
                             "url": "http://download.hl7.de/documents/ucum/ucumdata.html"
                         },
                         {
-                            "description": "The SNOMED code represents MilliMeter per seconds",
+                            "description": "The SNOMED code represents MilliMeter per seconds.",
                             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/258993000"
                         },
                         {
-                            "description": "The SNOMED code represents CentiMeter per seconds ",
+                            "description": "The SNOMED code represents CentiMeter per seconds.",
                             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/258990002"
                         },
                         {
-                            "description": "The SNOMED code represents Meter per seconds ",
+                            "description": "The SNOMED code represents Meter per seconds.",
                             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/258710007"
                         }
                     ],
+
                     "enum": [
                         "mm",
                         "cm",

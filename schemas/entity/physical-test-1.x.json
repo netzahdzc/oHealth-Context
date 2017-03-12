@@ -11,16 +11,16 @@
     ],
     
     "definitions": {
-        "test ": {
+        "test": {
             "$ref": "test-type-1.x.json"
         },
         "sensor": {
             "$ref": "sensor-type-1.x.json"
         },
-       "data": {
+        "data": {
             "$ref": "sensor-data-1.x.json"
         },
-        "time ": {
+        "time": {
             "$ref": "time-interval-1.x.json"
         }
     },
@@ -43,5 +43,11 @@
         },
     },
     
-    "required": ["test", "sensor", "speed", "data", "time"]
+    "required": [
+        "test", 
+        "sensor", 
+        "speed", 
+        "data", 
+        "time"
+    ]
 }

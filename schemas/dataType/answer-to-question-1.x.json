@@ -1,10 +1,12 @@
 {
-    "$id": "answer-to-question",
-
+    "id": "answer-to-question",
     "$schema": "http://json-schema.org/draft-04/schema#",
-
     "description": "Word or set of words that represent a particular answer from a given question.",
+	"type": "string",
 
-    "references": [ ],
-    "type": "string"
+    "references": [ 
+		{
+            "description": "Sentence given as an answer to fulfill a form.",
+        }
+    ]
 }

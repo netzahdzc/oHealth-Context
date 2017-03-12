@@ -66,6 +66,30 @@ This section introduce a number of schema to define entities. For instance the *
       "value":"Accelerometer",
       "type":"sensor-type",
       "metadata":{  
+         "name":{
+            "value":"KR3DM 3-axis",
+            "type":"string"
+         },
+         "vendor":{
+            "value":"STMicroelectronics",
+            "type":"string"
+         },
+         "version":{
+            "value":"1",
+            "type":"string"
+         },
+         "power":{
+            "value":"0.23 mA"
+            "type":"string"
+         },
+         "resolution":{
+            "value":"0.0191536136 m/s2",
+            "type":"string"
+         },
+         "maxRange":{
+            "value":"19.6133003135 m/s2",
+            "type":"string"
+         },
          "speed":{  
             "value":"60",
             "type":"hz"

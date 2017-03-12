@@ -35,5 +35,8 @@
                 }
             ]
         },
-    "required": ["step-distance"]
+
+    "required": [
+        "step-distance"
+    ]
 }
