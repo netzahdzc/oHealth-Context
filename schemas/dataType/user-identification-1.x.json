@@ -1,7 +1,7 @@
 {
-    "id": "patient-identification",
+    "id": "user-identification",
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "description": "Unique value either created or provided from an entity to identify a single patient.",
+    "description": "Unique value either created or provided from an entity to identify a single user.",
     "type": "string",
 
     "references": [

@@ -4,6 +4,13 @@
    "description": "This schema represents baseline measurement data for patients.",
    "type": "object",
 
+	"references": [
+        {
+            "description": "Pending to be included.",
+            "url": "Pending to be included."
+        }
+    ],
+
    "definitions": {
 	   "body_weight": {  
 	      "$ref": "body-weight-1.x.json"

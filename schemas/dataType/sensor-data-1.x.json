@@ -4,34 +4,61 @@
     "description": " This schema represents a set of sensor data collected by a mobile device used by a user while performing a supervised physical test.",
     "type": "object",
 
+    "references": [
+        {
+            "description": "Pending to be included.",
+            "url": "Pending to be included."
+        }
+    ],
+
+    "definitions": {
+        "data_format": {
+            "$ref": "data-format-1.x.json"
+        },
+        "device_type": {
+            "$ref": "device-type-1.x.json"
+        },
+        "model": {
+            "description": "Device model.",
+            "type": "string"
+        },
+        "brand": {
+            "description": "Device brand defined from respective manufacture.",
+            "type": "string"
+        },
+        "software": {
+            "description": "Software version defined from installed program that is gathering sensor data from respective device.",
+            "type": "string"
+        },
+        "library": {
+            "description": "Sofware version or description to further identify the library used by the main software to collect sensor data.",
+            "type": "string"
+        }
+    },
+
     "properties": {
         "data": {
             "description": "Collection of values product of the sensor device used while performing the physical test. Respective collection of values is tabular separated to avoid ambiguity.",
             "type": "object",
-            "metadata": {
+            
+            "properties": {
                 "format": {
-                    "description": "Formar in which sensed data is been delivered. For instance JSON, CVS, TVS.",
-                    "type": "data-format-1.x.json"
+                    "$ref": "#/definitions/data_format"
                 },
                 "device": {
-                    "description": "Device type.",
-                    "type": "device-type-1.x.json"
+                    "$ref": "#/definitions/device_type"
                 },
                 "model": {
-                    "description": "Device model.",
-                    "type": "Text"
+                    "$ref": "#/definitions/model"
                 },
                 "brand": {
-                    "description": "Device brand defined from respective manufacture.",
-                    "type": "Text"
+                    "$ref": "#/definitions/brand"
                 },
                 "software": {
-                    "description": "Software version defined from installed program that is gathering sensor data from respective device.",
-                    "type": "Text"
+                    "$ref": "#/definitions/software"
                 },
                 "library": {
-                    "description": "Sofware version or description to further identify the library used by the main software to collect sensor data.",
-                    "type": "Text"
+                    "$ref": "#/definitions/library"
                 }
             }
         }

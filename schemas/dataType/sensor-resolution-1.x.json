@@ -1,12 +1,12 @@
 {
-    "id": "sensor-speed",
+    "id": "sensor-resolution",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "description": "This schema represents the speed of the sensors devices used to collect data.",
     "type": "object",
 
     "references": [
         {
-          "description": "The units of measure of the element. Basic unit is hearts (hz). Allowed values are drawn from the UCUM codes list for Electronic Messaging.",
+          "description": "The units of measure of sensor's resolution. Allowed values are drawn from the UCUM codes list for Electronic Messaging.",
           "url": "https://ftp.cdc.gov/pub/CLIAC_meeting_presentations/pdf/Addenda/cliac0313/13B_CLIAC_2013March_TableofExampleUCUM.pdf"
         }
     ],
@@ -19,13 +19,13 @@
 
       "allOf": [
                   {
-                      "$ref": "#/definitions/unit_value"
+                      "$ref": "#/definitions/sensor-resolution"
                   },
                   {
                       "properties": {
                           "unit": {
                               "enum": [
-                                  "hz"
+                                  "m/s2"
                               ]
                           }
                       }

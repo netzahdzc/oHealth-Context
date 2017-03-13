@@ -9,5 +9,10 @@
             "description": "The SNOMED code represents (observable entity).",
             "url": "http://purl.bioontology.org/ontology/SNOMEDCT/184100006"
         }
+    ],
+
+    "enum": [
+        "Male",
+        "Female"
     ]
 }
