@@ -19,7 +19,7 @@ A JSON Schema corresponding to this data model can be found [here](https://githu
    + Mandatory.
 
 + `refDevice` : Reference to the device(s) used to monitor this test.
-   + Attribute type: List of Reference to entity(ies) of type [Device](https://github.com/netzahdzc/dataModels/blob/master/Device/Device/doc/spec.md)
+   + Attribute type: List of Reference to entity(ies) of type [Device](https://github.com/smartsdk/dataModels/blob/master/Device/Device/doc/spec.md)
    + Mandatory.
 
 + `omh:end_date_time` : Time the test starts.
