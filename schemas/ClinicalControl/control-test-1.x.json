@@ -12,7 +12,7 @@
     ],
 
    "definitions": {
-   	   "refUser":{
+   	   "refActor":{
    	   	  "$ref": "https://fiware.github.io/dataModels/common-schema.json#/definitions/EntityIdentifierType"
    	   	},
 	   "body_weight": {  
@@ -39,8 +39,8 @@
    },
    
    "properties": {
-   	   "refUser":{
-   	     "$ref": "#/definitions/refUser"
+   	   "refActor":{
+   	     "$ref": "#/definitions/refActor"
    	   },
 	   "omh:body_weight": {  
 	     "$ref": "#/definitions/body_weight"
@@ -66,6 +66,7 @@
    },
 
    "required": [
+   		"refActor",
    		"omh:body_weight", 
    		"omh:body_height", 
    		"waistCircumference",
