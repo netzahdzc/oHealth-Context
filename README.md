@@ -5,7 +5,7 @@ This project provides an overview of a data model in the scope of sensing data f
 
 # INTRODUCTION
 
-oHealth-Context is an initiative proposed as part of the SmartSDk project track HealthCare-App. Its aims is to benefit a range of individuals and organizations (e.g., patients, researchers, health care system, government, etc.) by reducing the complexity of health data, through a standardized set of schemas and software stack that might facilitate writing applications that can process and create clinical data, regardless of where the data comes from.
+oHealth-Context is an initiative proposed as part of the SmartSDk project track HealthCare-App. It aims to benefit a range of individuals and organizations (e.g., patients, researchers, health care system, government, etc.) by reducing the complexity of health data. It consists of a standardized set of schemas and software stack that might facilitate writing applications that can process and create clinical data, regardless of where the data comes from.
 
 The interpretation of clinical data is critical and needs to be associated with proper metadata. For instance, it is imperative for a physician to differentiate between glucose levels among diabetic patients, or to distinguish whether a heart patient is self-reporting his heart rate or whether it is automatically collected during resting or exercise time. In this context, oHealth-Context provides useful data structures to facilitate a meaningful interpretation of the data. 
 
@@ -19,11 +19,11 @@ In this project, we have adopted and extended the standardized mHealth specifica
 
 # SCHEMAS
 
-Data schemas specify the format and content of data, such as blood glucose readings, blood pressure, body fat percentage, calories burned, among others; which affects how pre-defined programs might compute data. On the other hand, data usually comes from different devices and/or platforms, which enrich but difficult a more interesting across-data analysis. Thus, a standard schema serves as a single source of documentation that can be referenced whenever and wherever the data points are used.
+Data schemas specify the format and content of data, such as blood glucose readings, blood pressure, body fat percentage, calories burned, among others; which affects how pre-defined programs might compute data. On the other hand, data usually comes from different devices and platforms, which enrich but difficult a more interesting across-data analysis. Thus, a standard schema serves as a single source of documentation that can be referenced whenever and wherever the data points are used.
 
-The schemas defined in this document are meaningful in distinctions for each clinical measure; for instance, to sense heart rate data, blood pressure, sugar level, so forth, increasing the overall clinical utility of digital health data and improving the ability of developers to quickly build clinically usable outcomes. As proof of concept, we have developed a mobile phone application, named [MA-Test](https://bitbucket.org/netzahdzc/ma-test). Thus, we have defined a reduced and specific set of schemas aimed at measuring the risk of fall for an older adult; as described next.
+The schemas defined in this document are meaningful in distinctions for each clinical measure. For instance, to sense heart rate data, blood pressure, sugar level, so forth, increasing the overall clinical utility of digital health data and improving the ability of developers to build clinically beneficial outcomes quickly. As proof of concept, we have developed a mobile phone application, named [MA-Test](https://bitbucket.org/netzahdzc/ma-test). Thus, we have defined a reduced and specific set of schemas aimed at measuring the risk of fall for an older adult; as described next.
 
 # References
-*  Estrie D, Sim I. Health care delivery. Open mHealth architecture: an engine for health care innovation. Science 2010 Nov 5;330(6005):759-760.
+* Estrie D, Sim I. Health care delivery. Open mHealth architecture: an engine for health care innovation. Science 2010 Nov 5;330(6005):759-760.
 * Data Observation Network for Earth (DataONE). Data Citation and Attribution; https://www.dataone.org/citing-dataone (accessed Sep. 2016).
-* Voss, EA., Makadia, R., Matcho, A., Ma, Q., Knoll, C., Scheme, M., DeFalco, FJ., Lonche, A., Zhu, V., Ryan, PB. (2015). Feasibility and utility of applications of the common data model to multiple, disparate observational health databases. Journal of the American Medical Informatics Association. 22(3):553-64.
+* Voss, EA., Makadia, R., Matcho, A., Ma, Q., Knoll, C., Scheme, M., DeFalco, FJ., Lonche, A., Zhu, V., Ryan, PB. (2015). Feasibility and utility of applications for the common data model to multiple, disparate observational health databases. Journal of the American Medical Informatics Association. 22(3):553-64.
